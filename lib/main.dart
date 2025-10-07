@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
           contentPadding: EdgeInsets.symmetric(horizontal: 16, vertical: 12),
         ),
       ),
-      home: LoginScreen(userDatabase: {},),
+      home: LoginScreen(userDatabase: {}),
     );
   }
 }

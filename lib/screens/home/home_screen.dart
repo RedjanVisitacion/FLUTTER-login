@@ -11,7 +11,11 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Text('Welcome to Home Screen'),
+      appBar: AppBar(
+        title: Text('Home'),
+        backgroundColor: Colors.pink.shade300,
+      ),
+      body: Center(child: Text('Welcome to Home Screen',style: TextStyle(fontSize: 35),)),
     );
   }
 }

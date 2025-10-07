@@ -1,5 +1,5 @@
-
 import 'package:app/screens/home/home_screen.dart';
+import 'package:app/screens/home/login_screen.dart';
 import 'package:flutter/material.dart';
 
 class LoginScreen extends StatelessWidget {
@@ -60,7 +60,7 @@ class LoginScreen extends StatelessWidget {
                   onPressed: () {
                     Navigator.push(
                       context,
-                      MaterialPageRoute(builder: (_) => LoginScreen(userDatabase: userDatabase)),
+                      MaterialPageRoute(builder: (_) => SigupScreen(userDatabase: userDatabase)),
                     );
                   },
                   child: Center(
@@ -78,5 +78,6 @@ class LoginScreen extends StatelessWidget {
     );
   }
 }
+
 
 

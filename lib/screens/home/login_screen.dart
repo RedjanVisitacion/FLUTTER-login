@@ -1,6 +1,3 @@
-
-
-
 import 'package:flutter/material.dart';
 
 class SigupScreen extends StatelessWidget {
@@ -122,4 +119,9 @@ class SigupScreen extends StatelessWidget {
     );
   }
 }
+
+
+
+
+
 
